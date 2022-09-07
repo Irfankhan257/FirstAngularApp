@@ -1,0 +1,151 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "Name": "Irfan",
+      "Age": "22",
+      "Gender": "Male",
+      "Department": "BSCS"
+    },
+    {
+      "id": 2,
+      "Name": "Fahad",
+      "Age": "12",
+      "Gender": "Male",
+      "Department": "BSCS"
+    },
+    {
+      "id": 3,
+      "Name": "Shifa",
+      "Age": "34",
+      "Gender": "Male",
+      "Department": "BSSE"
+    },
+    {
+      "id": 1,
+      "Name": "Irfan",
+      "Age": "22",
+      "Gender": "Male",
+      "Department": "BSCS"
+    },
+    {
+      "id": 2,
+      "Name": "Fahad",
+      "Age": "12",
+      "Gender": "Male",
+      "Department": "BSCS"
+    },
+    {
+      "id": 3,
+      "Name": "Shifa",
+      "Age": "34",
+      "Gender": "Male",
+      "Department": "BSSE"
+    },
+    {
+      "id": 1,
+      "Name": "Irfan",
+      "Age": "22",
+      "Gender": "Male",
+      "Department": "BSCS"
+    },
+    {
+      "id": 2,
+      "Name": "Fahad",
+      "Age": "12",
+      "Gender": "Male",
+      "Department": "BSCS"
+    },
+    {
+      "id": 3,
+      "Name": "Shifa",
+      "Age": "34",
+      "Gender": "Male",
+      "Department": "BSSE"
+    },
+    {
+      "id": 1,
+      "Name": "Irfan",
+      "Age": "22",
+      "Gender": "Male",
+      "Department": "BSCS"
+    },
+    {
+      "id": 2,
+      "Name": "Fahad",
+      "Age": "12",
+      "Gender": "Male",
+      "Department": "BSCS"
+    },
+    {
+      "id": 3,
+      "Name": "Shifa",
+      "Age": "34",
+      "Gender": "Male",
+      "Department": "BSSE"
+    },
+    {
+      "id": 1,
+      "Name": "Irfan",
+      "Age": "22",
+      "Gender": "Male",
+      "Department": "BSCS"
+    },
+    {
+      "id": 2,
+      "Name": "Fahad",
+      "Age": "12",
+      "Gender": "Male",
+      "Department": "BSCS"
+    },
+    {
+      "id": 3,
+      "Name": "Shifa",
+      "Age": "34",
+      "Gender": "Male",
+      "Department": "BSSE"
+    },
+    {
+      "id": 1,
+      "Name": "Irfan",
+      "Age": "22",
+      "Gender": "Male",
+      "Department": "BSCS"
+    },
+    {
+      "id": 2,
+      "Name": "Fahad",
+      "Age": "12",
+      "Gender": "Male",
+      "Department": "BSCS"
+    },
+    {
+      "id": 3,
+      "Name": "Shifa",
+      "Age": "34",
+      "Gender": "Male",
+      "Department": "BSSE"
+    }
+    
+  ],
+  "signup": [
+    {
+      "name": "Irfan khan",
+      "mobile": "03149963908",
+      "email": "irfankhan@gmail.com",
+      "password": "123456",
+      "id": 1
+    },
+    {
+      "name": "Shifa Ali",
+      "mobile": "12345678",
+      "email": "shifa.ali@gmail.com",
+      "password": "asdfg",
+      "id": 2
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}

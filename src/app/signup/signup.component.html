@@ -1,0 +1,73 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <div class="card">
+        <div class="text-center">
+          <h1>Student management system</h1>
+          <h5>SignUp Page</h5><hr><hr>
+        </div>
+        <form [formGroup]= "signupForm" (ngSubmit)= "singUp()">
+          <div class="form-group">
+            <label>Full Name</label>
+            <input formControlName= "name"
+              type="email"
+              class="form-control"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+              placeholder="Enter Full Name"
+            />
+            <small id="emailHelp" class="form-text text-muted"
+              ></small
+            >
+          </div>
+          <div class="form-group">
+            <label>Mobile Number</label>
+            <input
+              formControlName="mobile"  
+              type="email"
+              class="form-control"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+              placeholder="Mobile number"
+            />
+            <small id="emailHelp" class="form-text text-muted"
+              ></small
+            >
+          </div>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input
+            formControlName="email"
+              type="email"
+              class="form-control"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+              placeholder="Enter email"
+            />
+            <small id="emailHelp" class="form-text text-muted"
+              ></small
+            >
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Password</label>
+            <input
+            formControlName="password"
+              type="password"
+              class="form-control"
+              id="exampleInputPassword1"
+              placeholder="Password"
+            />
+          </div><hr>
+          <button type="submit" class="btn btn-primary">Confrim</button>&nbsp;
+          <input
+            type="button"
+            value="Back to Login page"
+            routerLink= "/login"
+            class="btn btn-primary"
+          />
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
