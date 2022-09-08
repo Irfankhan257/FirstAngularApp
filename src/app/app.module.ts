@@ -7,7 +7,9 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import {  HttpClientModule } from '@angular/common/http';
 import { LoginComponent } from './login/login.component';
 import { SignupComponent } from './signup/signup.component';
-import { MatPaginatorModule } from '@angular/material/paginator';
+
+
+
 
 
 
@@ -20,7 +22,6 @@ import { MatPaginatorModule } from '@angular/material/paginator';
     FormsModule,
     ReactiveFormsModule,
     HttpClientModule,
-    MatPaginatorModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

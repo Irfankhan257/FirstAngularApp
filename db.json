@@ -3,7 +3,7 @@
     {
       "id": 1,
       "Name": "Irfan",
-      "Age": "22",
+      "Age": "45",
       "Gender": "Male",
       "Department": "BSCS"
     },
@@ -22,111 +22,12 @@
       "Department": "BSSE"
     },
     {
-      "id": 1,
-      "Name": "Irfan",
-      "Age": "22",
+      "id": 4,
+      "Name": "shifa Ali",
+      "Age": "69",
       "Gender": "Male",
-      "Department": "BSCS"
-    },
-    {
-      "id": 2,
-      "Name": "Fahad",
-      "Age": "12",
-      "Gender": "Male",
-      "Department": "BSCS"
-    },
-    {
-      "id": 3,
-      "Name": "Shifa",
-      "Age": "34",
-      "Gender": "Male",
-      "Department": "BSSE"
-    },
-    {
-      "id": 1,
-      "Name": "Irfan",
-      "Age": "22",
-      "Gender": "Male",
-      "Department": "BSCS"
-    },
-    {
-      "id": 2,
-      "Name": "Fahad",
-      "Age": "12",
-      "Gender": "Male",
-      "Department": "BSCS"
-    },
-    {
-      "id": 3,
-      "Name": "Shifa",
-      "Age": "34",
-      "Gender": "Male",
-      "Department": "BSSE"
-    },
-    {
-      "id": 1,
-      "Name": "Irfan",
-      "Age": "22",
-      "Gender": "Male",
-      "Department": "BSCS"
-    },
-    {
-      "id": 2,
-      "Name": "Fahad",
-      "Age": "12",
-      "Gender": "Male",
-      "Department": "BSCS"
-    },
-    {
-      "id": 3,
-      "Name": "Shifa",
-      "Age": "34",
-      "Gender": "Male",
-      "Department": "BSSE"
-    },
-    {
-      "id": 1,
-      "Name": "Irfan",
-      "Age": "22",
-      "Gender": "Male",
-      "Department": "BSCS"
-    },
-    {
-      "id": 2,
-      "Name": "Fahad",
-      "Age": "12",
-      "Gender": "Male",
-      "Department": "BSCS"
-    },
-    {
-      "id": 3,
-      "Name": "Shifa",
-      "Age": "34",
-      "Gender": "Male",
-      "Department": "BSSE"
-    },
-    {
-      "id": 1,
-      "Name": "Irfan",
-      "Age": "22",
-      "Gender": "Male",
-      "Department": "BSCS"
-    },
-    {
-      "id": 2,
-      "Name": "Fahad",
-      "Age": "12",
-      "Gender": "Male",
-      "Department": "BSCS"
-    },
-    {
-      "id": 3,
-      "Name": "Shifa",
-      "Age": "34",
-      "Gender": "Male",
-      "Department": "BSSE"
+      "Department": "BSBS"
     }
-    
   ],
   "signup": [
     {
@@ -142,6 +43,13 @@
       "email": "shifa.ali@gmail.com",
       "password": "asdfg",
       "id": 2
+    },
+    {
+      "name": "rafi",
+      "mobile": "12345345346",
+      "email": "shifa.ali985@gmail.com",
+      "password": "asdfg",
+      "id": 3
     }
   ],
   "comments": [],
