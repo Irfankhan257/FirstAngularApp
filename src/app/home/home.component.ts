@@ -1,8 +1,7 @@
 import { ApiService } from './../shared/api.service';
 import { Studentdata } from './student.model';
-import { Component, OnInit, ViewChild} from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
 import { FormGroup, FormBuilder } from '@angular/forms';
-
 
 @Component({
   selector: 'app-home',
@@ -14,9 +13,10 @@ export class HomeComponent implements OnInit {
   Studentdataobj: Studentdata = new Studentdata();
   showadd!: boolean;
   showeditbtn!: boolean;
-  allStudentdata: any;
-
- 
+  public allStudentdata: any[];
+  // Pagination parameters.
+  p: any = 1;
+  count: any = 5;
 
   constructor(private formBuilder: FormBuilder, private api: ApiService) {}
 
@@ -56,8 +56,8 @@ export class HomeComponent implements OnInit {
 
   getAlldata() {
     this.api.getStudent().subscribe((res) => {
-       this.allStudentdata = res;
-       console.log(res)
+      this.allStudentdata = res;
+      console.log(res);
     });
   }
 

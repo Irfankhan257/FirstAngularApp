@@ -28,7 +28,7 @@
         </tr>
     </thead>
     <tbody>
-        <tr *ngFor="let data of allStudentdata">
+        <tr *ngFor="let data of allStudentdata | paginate: { itemsPerPage: count, currentPage: p } ">
             <td>  {{data.id}} </td>
             <td>  {{data.Name}} </td>
             <td>  {{data.Age}} </td>
@@ -41,6 +41,11 @@
         </tr>
     </tbody>
 </table>
+<!--Including the pagination control.-->
+  <div class="text-right">
+    <pagination-controls (pageChange)="p = $event"></pagination-controls>
+  </div>
+
 <!-- Modal -->
 <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
   <div class="modal-dialog">
