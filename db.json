@@ -209,6 +209,13 @@
       "Age": "12",
       "Gender": "Male",
       "Department": "BSCS"
+    },
+    {
+      "id": 32,
+      "Name": "faisal",
+      "Age": "23",
+      "Gender": "female",
+      "Department": "BSIT"
     }
   ],
   "signup": [
@@ -232,6 +239,20 @@
       "email": "shifa.ali985@gmail.com",
       "password": "asdfg",
       "id": 3
+    },
+    {
+      "name": "Asim khalid",
+      "mobile": "03149964978",
+      "email": "asim.khalid@gmail.com",
+      "password": "123456",
+      "id": 4
+    },
+    {
+      "name": "karim",
+      "mobile": "01230291381203",
+      "email": "karim.bhai@gmail.com",
+      "password": "123456",
+      "id": 5
     }
   ],
   "comments": [],

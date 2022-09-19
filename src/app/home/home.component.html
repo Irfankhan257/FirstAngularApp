@@ -3,7 +3,7 @@
         <h2>Student List</h2>
         <div class="d-flex">
             <button  (click)="clickAddstudent()" type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Add New Student</button>
-            <button routerLink='/login' class="btn btn-danger mx-3">Logout</button>
+            <button (click)="logout()" routerLink='/login' class="btn btn-danger mx-3">Logout</button>
         </div>
     </div>
 </nav>

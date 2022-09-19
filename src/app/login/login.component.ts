@@ -1,7 +1,11 @@
 import { Router } from '@angular/router';
 import { HttpClient } from '@angular/common/http';
-import { FormBuilder, FormGroup } from '@angular/forms';
+import {
+  FormBuilder,
+  FormGroup,
+} from '@angular/forms';
 import { Component, OnInit } from '@angular/core';
+import { ApiService } from '../shared/api.service';
 
 @Component({
   selector: 'app-login',
@@ -10,11 +14,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LoginComponent implements OnInit {
   loginForm!: FormGroup;
+  user: string;
 
   constructor(
+    private as: ApiService,
     private FormBuilder: FormBuilder,
     private _http: HttpClient,
-    private router: Router
+    private router : Router
   ) {}
 
   ngOnInit(): void {
@@ -23,22 +29,28 @@ export class LoginComponent implements OnInit {
       password: [''],
     });
   }
-  logIn(){
-    this._http.get<any>('http://localhost:3000/signup').subscribe(res=>{
-      const user = res.find((a:any)=>{
-        return a.email === this.loginForm.value.email && a.password === this.loginForm.value.password
-      })
-      if(user){
-        alert('Successfully logged In');
-        this.loginForm.reset()
-        this.router.navigate(['home'])
+
+  logIn() {
+    this._http.get<any>('http://localhost:3000/signup').subscribe(
+      (res) => {
+        const user = res.find((a: any) => {
+          return (
+            a.email === this.loginForm.value.email &&
+            a.password === this.loginForm.value.password
+          );
+        });
+        if (user) {
+          alert('Successfully logged In');
+          this.loginForm.reset();
+          this.router.navigate(['home']);
+          this.as.setToken();
+        } else {
+          alert('Invalid Credentials');
+        }
+      },
+      (err) => {
+        alert('Server side error');
       }
-      else{
-        alert('Invalid Credentials')
-      }
-    }, err=>{
-      alert('Server side error')
-    }
     );
   }
 }

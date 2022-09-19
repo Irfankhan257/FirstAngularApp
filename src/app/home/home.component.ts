@@ -1,7 +1,8 @@
-import { ApiService } from './../shared/api.service';
+import { ApiService } from '../shared/api.service';
 import { Studentdata } from './student.model';
 import { Component, OnInit, ViewChild } from '@angular/core';
 import { FormGroup, FormBuilder } from '@angular/forms';
+
 
 @Component({
   selector: 'app-home',
@@ -91,5 +92,9 @@ export class HomeComponent implements OnInit {
         this.formValue.reset();
         this.getAlldata();
       });
+  }
+  logout(){
+    this.api.removeToken()
+    
   }
 }
